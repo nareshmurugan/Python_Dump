@@ -1,0 +1,11 @@
+setlen=int(input())
+setele=input().split()
+setelem=map(int,setele)
+seteleme=set(list(setelem))
+seteleme=set(list(map(int,setele)))
+nooptodo=int(input())
+setop=['intersection_update','update','symmetric_difference_update',
+        'difference_update']
+opandnoofsetele=input().split()
+setopele=set(input().split())
+print(seteleme.update(setopele))
