@@ -1,0 +1,12 @@
+import turtle
+t=turtle.Turtle()
+t.pen(pencolor='black',fillcolor='red',pensize=3,speed=5000)
+t.forward(100) 
+t.penup()
+t.forward(50)
+t.pendown()
+t.pen(pencolor='black',fillcolor='yellow',pensize=3,speed=5000)
+t.dot(40)
+t.pen(pencolor='black',fillcolor='red',pensize=3,speed=5000)
+t.back(15) 
+t.hideturtle()
