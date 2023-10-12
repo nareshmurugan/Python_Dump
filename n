@@ -1,0 +1,8 @@
+def Return():
+    for i in range(5):
+        print("python"[i-1])
+    for j in range(5):
+        print("java"[j-1])
+    for k in range(3):
+        print("c++"[k-1])
+    return i,j,k
